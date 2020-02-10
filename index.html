@@ -1,0 +1,231 @@
+<html>
+<head>
+	<script type="text/javascript" src="http://termix.dx.am/jquery-3.1.1.min.js"></script>
+                <link rel="stylesheet" href="odometer3.2-theme-default.css" />
+                         <script type="text/javascript" src="od2.js"></script>
+                     
+<link href="//db.onlinewebfonts.com/c/0d0e90eb107486ca06f62c39a3c15f4e?family=CiutadellaW04-Lt" rel="stylesheet" type="text/css"/>
+<title>OxyK</title>
+<style>
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.odometer{
+  
+font-family: "CiutadellaW04-Lt"; 
+font-weight:lighter;
+
+    margin: auto 90px;
+    font-size: 50px;
+    margin: inherit;
+    color: black;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+body{
+  min-height: 100vh;
+  background-image: linear-gradient(120deg,#3498db,#8e44ad);
+}
+
+.login-form{
+  width: 720px;
+  background: #f1f1f1;
+  height: 550px;
+  padding: 80px 40px;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.login-form2{
+  width: 450px;
+
+  height: 150px;
+  padding: 80px 40px;
+  border-radius: 5px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.login-form h1{
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.txtb{
+  border-bottom: 2px solid #adadad;
+  position: relative;
+  margin: 30px 0;
+}
+
+.txtb input{
+  font-size: 15px;
+  color: #333;
+  border: none;
+  width: 100%;
+  outline: none;
+  background: none;
+  padding: 0 5px;
+  height: 40px;
+}
+ .round {
+    border-radius: 100px; /* Радиус скругления */
+    border: 2px solid blue; /* Параметры рамки */
+    box-shadow: 0 0 27px #666; /* Параметры тени */
+   }
+.txtb span::before{
+  content: attr(data-placeholder);
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #adadad;
+  transform: translateY(-50%);
+  z-index: -1;
+  transition: .5s;
+}
+
+.txtb span::after{
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(120deg,#3498db,#8e44ad);
+  transition: .5s;
+}
+
+.focus + span::before{
+  top: -5px;
+}
+.focus + span::after{
+  width: 100%;
+}
+
+button{
+ position:absolute;
+;
+ transform: translate(-50%, -50%)
+}
+button {
+ background: none;
+ border: 1px solid #000080;
+ font-size: 18px;
+ color: black;
+ border-radius: 4px;
+ transition: .6s;
+ overflow: hidden;
+}
+button:focus{
+ outline:none;
+ }
+button:before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255,255,255,.5);
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    filter: blur(30px);
+    transform: translateX(-130px) skewX(-15deg);
+}
+
+button:after{
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255,255,255,.2);
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(30px);
+    transform: translate(-100px) scaleX(-15deg);
+}
+button:hover {
+    background: #000080;
+     color: white;
+ cursor:pointer;
+ }
+
+button:hover:before {
+   transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+button:hover:after {
+   transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
+.bottom-text{
+ font-weight: 500;
+  text-align: center;
+  font-size: 26px;
+}
+.myProj-text{
+ font-weight: 700;
+  text-align: center;
+
+  
+}
+
+</style>
+
+<script>
+
+
+</script>
+
+</head>
+<body>
+<form  class="login-form">
+  <div class="bottom-text">
+         YouTube Realtime Subscriber Counter
+        </div>
+		<center>
+                
+		 <br>
+   <br>
+    <img src="uknc.png" class="round" style="block-size: 100px;">
+    <br>
+<div class="cname-text" style="
+    font-size: 20px;
+    margin-top: 30;
+">
+         YouTube Unknown channel
+        </div>
+<br>
+<br>
+<h1 class="odometer" id="odometer">10</h1>
+
+  <div class="myProj-text"> DOWNLOADS </div>
+  <br>
+
+        <b  <div id="pr2"> <div>   <div> <a href="http://termix.dx.am/ext.html?fromMainPage=1"> Download Extension</a> </div><button href="http://termix.dx.am/termixRealtime/"></button></div>    </div>
+        <br>
+       <br>
+<br>
+   
+		</center>
+
+
+      </form>
+      
+
+
+
+  
+</html>
