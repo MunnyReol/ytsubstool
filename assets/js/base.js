@@ -1,4 +1,4 @@
-var baseURL = "https://akshatmittal.com/youtube-realtime/";
+var baseURL = "https://okyk738.github.io/ytsubstool/";
 if (typeof isCustomPage == 'undefined') isCustomPage = 0;
 if (window.location.hostname.indexOf("local.akshatmittal.com") < 0) {
     if (window.location.protocol != "https:") window.location.replace("https:" + window.location.href.substring(window.location.protocol.length));
